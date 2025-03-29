@@ -1,5 +1,6 @@
+import { expect } from "@jest/globals";
 import supertest from "supertest";
-import app from "../server.js";
+import app from "../app.js";
 
 const request = supertest(app);
 
@@ -15,6 +16,6 @@ describe("API Tests", () => {
     const res = await request.get("/tasks/1");
     expect(res.status).toBe(200);
     expect(res.body).toHaveProperty("id", 1); // Verifica que la tarea tenga el ID correcto
-    expect(res.body).toHaveProperty("tarea"); // Verifica que la tarea tenga la propiedad 'tarea'
+    expect(res.body).toHaveProperty("name"); // Verifica que la tarea tenga la propiedad 'name'
   });
 });
