@@ -20,7 +20,7 @@ This project demonstrates a simple Node.js API for managing tasks, integrated wi
 1. Build the image: `docker build -t task-api .`  
 2. Run the container: `docker run -p 3000:3000 task-api`
 
-## Repositoria github
+## Repositorio github
 ### https://github.com/AngelesCahill/task-api-docker-jenkins
 
 ## Docs docker and jenkins results
