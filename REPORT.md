@@ -28,5 +28,5 @@ This report outlines the steps taken to configure and execute the CI/CD pipeline
 
 ## Results
 
-- \[Add screenshots or logs of successful pipeline runs\]
+- https://docs.google.com/document/d/17OjntNOTrUKCwQNkgLeTfGNXGfTGhFSsQiu32Qms3lQ/edit?usp=sharing
 

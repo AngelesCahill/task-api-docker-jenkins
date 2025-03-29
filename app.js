@@ -22,5 +22,5 @@ app.get('/tasks/:id', (req, res) => {
 // Exportar app para pruebas
 export default app;
 
-const PORT = 4000;
+const PORT = 3000;
 app.listen(PORT, () => console.log(`API is running on port ${PORT}`));

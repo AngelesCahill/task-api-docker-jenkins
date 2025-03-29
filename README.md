@@ -22,3 +22,6 @@ This project demonstrates a simple Node.js API for managing tasks, integrated wi
 
 ## Repositoria github
 ### https://github.com/AngelesCahill/task-api-docker-jenkins
+
+## Docs docker and jenkins results
+### https://docs.google.com/document/d/17OjntNOTrUKCwQNkgLeTfGNXGfTGhFSsQiu32Qms3lQ/edit?usp=sharing
