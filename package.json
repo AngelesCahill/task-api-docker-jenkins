@@ -1,0 +1,25 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "description": "A basic Node.js API to manage tasks",
+  "main": "app.js",
+  "type": "module",
+  "author": "Angeles Cahill",
+  "scripts": {
+    "start": "node app.js",
+    "build": "echo 'No hay proceso de compilación en este proyecto'",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --forceExit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "eslint": "^9.23.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
